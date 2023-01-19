@@ -9,3 +9,4 @@ Podkarpackie Centrum Numizmatyczne
 - estetyczna kolorystyka strony
 - najeżdżanie myszką na niektóre elementy zmienia ich kolor
 - zmiania języków strony pomiędzy ang i pol (trza się nauczyć jak to zrobić bez robienia 2x tyle stron)
+- system logowania i system konta (dużo danych w bazie, szyfrowanie i powiązania)
