@@ -1,13 +1,12 @@
 .nav {
-    text-align: center;
     background-color: yellow;
 }
 .nav_list {
+    justify-content: center;
     display: flex;
 }
 .nav_item {
     list-style-type: none;
-    justify-content: center;
 }
 .nav_item:hover {
     background-color: gold;
