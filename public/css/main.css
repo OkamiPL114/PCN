@@ -5,16 +5,13 @@ nav {
 }
 nav ul li {
     list-style-type: none;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 nav ul {
     text-align: center;
     display: flex;
 }
 nav li:hover {
-    color: white;
     background-color: gold;
 }
 a {
@@ -22,7 +19,9 @@ a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    margin: 30px;
-    width: 50px;
-    height: 50px;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
