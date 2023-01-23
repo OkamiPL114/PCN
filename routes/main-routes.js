@@ -16,5 +16,15 @@ router.get('/contact', (req, res, next)=>{
         pageTitle: "PCN Kontakt",
     });
 })
+router.get('/login', (req, res, next)=>{
+    res.render('login', {
+        pageTitle: "PCN Logowanie",
+    });
+})
+router.get('/register', (req, res, next)=>{
+    res.render('register', {
+        pageTitle: "PCN Rejestracja",
+    });
+})
 
 module.exports = router;

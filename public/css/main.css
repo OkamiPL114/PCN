@@ -1,4 +1,9 @@
-/* styl navbara */
+/* bazowe style */
+a {
+    text-decoration: none;
+    color: black;
+}
+/* style navbara */
 .nav {
     background-color: yellow;
     align-self: center;
@@ -28,4 +33,20 @@
 .sticky {
     position: sticky;
     top: 0;
+}
+/* style dla góry strony */
+.logo {
+    width: 200px;
+}
+.site_top_right {
+    position: absolute;
+    top: 10px;
+    right: 150px;
+}
+.login, .register {
+    padding: 5px;
+    font-size: 20px;
+}
+.login:hover, .register:hover {
+    background-color: lightgray;
 }
