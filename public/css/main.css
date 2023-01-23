@@ -1,20 +1,20 @@
-nav {
+.nav {
     text-align: center;
     padding: 5px;
     background-color: yellow;
 }
-nav ul li {
-    list-style-type: none;
-    justify-content: center;
-}
-nav ul {
+.nav_list {
     text-align: center;
     display: flex;
 }
-nav li:hover {
+.nav_item {
+    list-style-type: none;
+    justify-content: center;
+}
+.nav_item:hover {
     background-color: gold;
 }
-a {
+.nav_link {
     font-weight: bold;
     text-decoration: none;
     color: black;
