@@ -1,5 +1,7 @@
+/* styl navbara */
 .nav {
     background-color: yellow;
+    align-self: center;
 }
 .nav_list {
     justify-content: center;
@@ -22,3 +24,9 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+/* poruszanie się navbara wraz ze stroną */
+.sticky {
+    position: sticky;
+    top: 0;
+}
+/* */
