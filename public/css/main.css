@@ -5,7 +5,7 @@ a {
 }
 /* style navbara */
 .nav {
-    background-color: yellow;
+    background-color: lightgray;
     align-self: center;
 }
 .nav_list {
@@ -16,18 +16,16 @@ a {
     list-style-type: none;
 }
 .nav_item:hover {
-    background-color: gold;
+    background-color: lightslategray;
 }
 .nav_link {
     font-weight: bold;
-    text-decoration: none;
-    color: black;
     font-size: 20px;
     display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 /* poruszanie się navbara wraz ze stroną */
 .sticky {
