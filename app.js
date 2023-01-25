@@ -10,7 +10,7 @@ const errorRoutes = require('./routes/error-routes');
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb://localhost:27017/pcn')
+//mongoose.connect('mongodb://localhost:27017/pcn')
 
 // zasoby statyczne
 const publicPath = path.join(__dirname, "public");
