@@ -7,9 +7,11 @@ a {
     color: black;
 }
 /* style navbara */
-.nav_bar {
+.nav_bar_mobile {
+    display: none;
+}
+.nav_bar_pc, .nav_bar_mobile {
     background-color: lightgray;
-    align-self: center;
 }
 .nav_list {
     justify-content: center;
@@ -17,8 +19,6 @@ a {
 }
 .nav_item {
     list-style-type: none;
-    margin: auto;
-    padding: auto;
 }
 .nav_item:hover {
     background-color: lightslategray;
@@ -44,27 +44,14 @@ a {
 /* responsywność */ 
 @media only screen and (max-width: 1393px){
     .about, .contact {
-        visibility: collapse;
-    }
-    .nav_link {
-        align-self: center;
+        display: none;
     }
 }
-/* @media only screen and (max-width: 1043px){
+ @media only screen and (max-width: 1083px){
     .nav_link{
-        font-size: 14px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
-@media only screen and (max-width: 831px){
-    .nav_link{
-        font-size: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-} */
