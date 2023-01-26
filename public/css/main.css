@@ -1,4 +1,7 @@
 /* bazowe style */
+* {
+    font-family: Arial;
+}
 a {
     text-decoration: none;
     color: black;
@@ -14,6 +17,8 @@ a {
 }
 .nav_item {
     list-style-type: none;
+    margin: auto;
+    padding: auto;
 }
 .nav_item:hover {
     background-color: lightslategray;
@@ -36,3 +41,30 @@ a {
 .logo {
     width: 200px;
 }
+/* responsywność */ 
+@media only screen and (max-width: 1393px){
+    .about, .contact {
+        visibility: collapse;
+    }
+    .nav_link {
+        align-self: center;
+    }
+}
+/* @media only screen and (max-width: 1043px){
+    .nav_link{
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 831px){
+    .nav_link{
+        font-size: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+} */
