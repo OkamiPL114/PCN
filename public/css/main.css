@@ -38,8 +38,17 @@ a {
     top: 0;
 }
 /* style dla góry strony */
+.site_top {
+    display: flex;
+}
 .logo {
     width: 200px;
+}
+.site_top_right {
+    flex: auto;    
+}
+.site_top_left {
+    width: 50%;
 }
 /* responsywność */ 
 @media only screen and (max-width: 1410px){
@@ -64,5 +73,7 @@ a {
     }
     .nav_list {
         justify-content: space-around;
+        padding-left: 0px;
+        margin: 0px;
     }
 }
