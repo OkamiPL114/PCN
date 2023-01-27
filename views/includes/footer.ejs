@@ -8,14 +8,18 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script>
     var navbar = document.getElementById("navbar");
+    var navbarMob = document.getElementById("navbar_mob");
     var menu = document.getElementById("menu");
+    var menuMob = document.getElementById("menu_mob");
 
     window.onscroll = function(){
         if(window.pageYOffset >= menu.offsetTop){
             navbar.classList.add("sticky");
+            navbarMob.classList.add("sticky");
         }
         else{
             navbar.classList.remove("sticky");
+            navbarMob.classList.remove("sticky");
         }
     }
 </script>

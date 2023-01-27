@@ -42,16 +42,27 @@ a {
     width: 200px;
 }
 /* responsywność */ 
-@media only screen and (max-width: 1393px){
+@media only screen and (max-width: 1410px){
     .about, .contact {
         display: none;
     }
 }
- @media only screen and (max-width: 1083px){
+@media only screen and (max-width: 1100px){
     .nav_link{
         padding-top: 6px;
         padding-bottom: 6px;
         padding-left: 25px;
         padding-right: 25px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .nav_bar_pc {
+        display: none;
+    }
+    .nav_bar_mobile {
+        display: block;
+    }
+    .nav_list {
+        justify-content: space-around;
     }
 }
