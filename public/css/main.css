@@ -60,6 +60,7 @@ a {
 /* style głównej zawartości strony */
 .main_content {
     clear: both;
+    margin: 3% 10%;
 }
 /* responsywność */ 
 @media only screen and (max-width: 1410px){
